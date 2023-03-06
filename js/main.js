@@ -22,7 +22,7 @@ $(document).ready(function(){
 Countdown Clock
 ------------------------------ */
 function makeTimer() {
-	var endTime = new Date("20 Feburary 2023 10:45:00 GMT+05:45");			
+	var endTime = new Date("20 March 2023 10:45:00 GMT+05:45");			
 	endTime = (Date.parse(endTime) / 1000);
 
 	var now = new Date();
